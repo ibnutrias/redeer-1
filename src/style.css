@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Prominent focus indicator for keyboard users */
+*:focus-visible {
+  outline: 3px solid #3b82f6 !important;
+  outline-offset: 2px !important;
+}
+

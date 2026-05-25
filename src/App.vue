@@ -1,7 +1,8 @@
 <template>
-  <BookReader />
+  <AppShell />
 </template>
 
 <script setup>
-import BookReader from './components/BookReader.vue'
+import AppShell from './components/AppShell.vue'
 </script>
+
